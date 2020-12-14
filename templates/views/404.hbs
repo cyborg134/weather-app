@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error page</title>
+        <link rel="icon" href="/img/weather_icon.png">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <!--<h1>{{title}} </h1>   dynamic content serving-->
+        <div>
+            {{>header}}
+            <!--<p>Create by {{name}}   </p>-->
+            <p>
+                {{errormsg}}
+            </p>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
